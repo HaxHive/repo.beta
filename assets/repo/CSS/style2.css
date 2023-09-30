@@ -1,0 +1,198 @@
+/* CSS for a floating header with rounded corners and modern button links */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 30px; /* Adjust this value for the desired distance from the top */
+    left: 50%; /* Position the header at the horizontal center */
+    transform: translateX(-50%); /* Center the header horizontally */
+    width: 70%; /* Adjust the width of the header */
+    background-color: rgba(22, 21, 21, 0.9); /* Slightly transparent background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 15px; /* Add rounded corners */
+    padding: 20px; /* Add padding to the header */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff; /* Change this to your desired text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+/* Add a specific style for the "active" class */
+.nav a.active {
+    background-color: #007BFF; /* Blue color for the Home link on the index page */
+    color: #fff; /* Text color for the Home link on the index page */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff; /* Change this to your desired text color */
+    font-weight: bold;
+    padding: 10px 20px; /* Add padding to the links */
+    border-radius: 5px; /* Add rounded corners to the links */
+    transition: background-color 0.3s, color 0.3s, transform 0.2s; /* Add hover effect */
+}
+
+.nav a:hover {
+    background-color: #007BFF; /* Change this to your desired hover background color (blue) */
+    color: #fff; /* Change this to your desired hover text color */
+    transform: scale(1.05); /* Scale the button slightly on hover */
+}
+
+/* CSS for mobile menu icon */
+.mobile-menu-icon {
+    display: none; /* Hide the icon by default for larger screens */
+    cursor: pointer;
+}
+
+.mobile-nav {
+    display: none; /* Hide the mobile navigation menu by default */
+}
+
+@media screen and (max-width: 768px) {
+    /* Hide the regular navigation menu on mobile */
+    .nav {
+        display: none;
+    }
+
+    /* Show the mobile menu icon */
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    /* Style for the hamburger icon bars */
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px auto;
+        transition: background-color 0.3s;
+    }
+
+    /* Style for the hamburger icon bars when active (menu open) */
+    .mobile-menu-icon.active .bar {
+        background-color: #007BFF; /* Change to your desired color */
+    }
+
+    /* Show the mobile navigation menu when the icon is clicked (active) */
+    .mobile-nav.active {
+        display: block;
+        position: absolute;
+        top: 70px; /* Adjust this value to control the distance from the header */
+        right: 20px; /* Adjust this value to control the position from the right */
+        background-color: rgba(22, 21, 21, 0.9); /* Background color for mobile menu */
+        border-radius: 5px; /* Add rounded corners */
+        padding: 20px; /* Padding for mobile menu items */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Make the mobile menu appear vertically */
+    .mobile-nav.active a {
+        display: block;
+        padding: 10px 0; /* Adjust this value for spacing between mobile menu items */
+    }
+}
+ 
+.centered-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; /* Set the background color to transparent */
+    z-index: 999;
+}
+
+
+/* Add-my-repo container */
+.Add-my-repo {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 20%;
+    max-width: 800px;
+    height: 50%;
+    max-height: 400px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust the Add-my-repo width for mobile screens */
+    .Add-my-repo {
+        width: 80%;
+        max-width: 80%;
+    }
+}
+
+.repo-item {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin: 25px 0; /* Add spacing between repo items */
+}
+
+.repo-item img {
+    width: 32px; /* Adjust the width of the icons as needed */
+    height: 32px; /* Adjust the height of the icons as needed */
+    margin-right: 10px; /* Add spacing between the icon and the button text */
+}
+
+.repo-item a {
+    display: flex; /* Allow button text to grow to container width */
+    align-items: center; /* Center button text vertically */
+    margin-left: 10px; /* Add spacing between the button and the icon */
+    flex-grow: 1; /* Let both the image and button text take up remaining space */
+}
+
+.Tweaks h1 {
+    position: relative;
+    top: 300px; /* Adjust the value as needed to move it down */
+    left: 350px; /* Adjust the value as needed to move it right */
+    color: #ffffff;
+}
+
+/* Center the h1 text for mobile devices */
+@media screen and (max-width: 768px) {
+    .Tweaks h1 {
+        position: relative;
+        top: 300;
+        left: 0;
+        text-align: center; /* Center the text horizontally */
+    }
+}
