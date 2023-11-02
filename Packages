@@ -4,10 +4,6 @@ Architecture: iphoneos-arm
 Maintainer: Appletech75(Kilian Balaguer) <kilianbalaguer@icloud.com>
 Depends:
 Filename: debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
-Size: 4358
-MD5sum: 0b0805cc75d1aed56fb18a719548dfd9
-SHA1: 1636c56e72d050076ee893db4bd949bb6dc15aa2
-SHA256: 4987ed43440a4ff9c48a791bc74ffe647530216b6b0c4dce20aa50b2fcdca742
 Section: Tweaks
 Description: Get in app purchase for free.
 Author: Appletech75(Kilian Balaguer) <kilianbalaguer@icloud.com>
