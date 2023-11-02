@@ -9,6 +9,7 @@ Architecture: iphoneos-arm
 Author: anondev
 Maintainer: Your Name <your@email.com>
 Filename: debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+Size: 71170
 
 Package: anondev.LocalIAPStore
 Name: LocalIAPStore
@@ -21,3 +22,4 @@ Architecture: iphoneos-arm
 Author: anondev
 Maintainer: Your Name <your@email.com>
 Filename: debs/anondev.LocalIAPStore_1.4-2_iphoneos-arm.deb
+Size: 71170
