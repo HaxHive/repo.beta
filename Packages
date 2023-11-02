@@ -7,6 +7,6 @@ Package: com.HaxHive.In-App-Pwner
  Priority: optional
  Architecture: iphoneos-arm
  Author: appletech75 <kilianbalaguer@icloud.com>
- Maintainer: HaxHive(appletech75) <kilianbalaguer@icloud.com
+ Maintainer: HaxHive <kilianbalaguer@icloud.com
 Filename: debs/com.HaxHive.In-App-Pwner.deb
 Size: 42964
