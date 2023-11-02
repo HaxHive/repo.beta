@@ -183,8 +183,9 @@ body {
 .Tweaks h1 {
     position: relative;
     top: 300px; /* Adjust the value as needed to move it down */
-    left: 350px; /* Adjust the value as needed to move it right */
+    left: 0; /* Adjust the value as needed to move it right */
     color: #ffffff;
+    text-align: center;
 }
 
 /* Center the h1 text for mobile devices */
