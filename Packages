@@ -9,3 +9,15 @@ Architecture: iphoneos-arm
 Author: anondev
 Maintainer: Your Name <your@email.com>
 Filename: debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+
+Package: anondev.LocalIAPStore
+Name: LocalIAPStore
+Version: 1.4-2
+Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers, in-appstore.com DNS needed). 64bit compatible
+Section: Tweaks
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Priority: optional
+Architecture: iphoneos-arm
+Author: anondev
+Maintainer: Your Name <your@email.com>
+Filename: debs/anondev.LocalIAPStore_1.4-2_iphoneos-arm.deb
