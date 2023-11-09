@@ -1,28 +1,44 @@
 <package>
 	<id>com.HaxHive.IOS16Theme</id>
-	<name>Animated Apple Preorder Respring Screen</name>
-	<version>1.0.0</version>
+	<name>Full Package</name>
+	<version>1.0.2-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>13.4.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-
 	</dependencies>
+	<shortDescription>This is a sample new package. Firmware should be greater than 10.0</shortDescription>
 	<descriptionlist>
-		<description>Support for compatimark</description>
-	</description>
+		<description>This is an package will full depictions.</description>
+		<description>It has more description lines.</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>A shot of what it looks like while respringing</description>
-			<image>cydia.png</image>
-		</screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>mainss.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Second release</change>
+		<change>now it works</change>
 	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
 </package>
