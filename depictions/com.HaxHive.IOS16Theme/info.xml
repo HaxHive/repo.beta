@@ -1,24 +1,36 @@
 <package>
 	<id>com.HaxHive.IOS16Theme</id>
-	<name>Old Package</name>
-	<version>1.0.0-1</version>
+	<name>Animated Apple Preorder Respring Screen</name>
+	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
-		    <miniOS>5.0</miniOS>
-			<maxiOS>7.0</maxiOS>
-			<otherVersions>unsupported</otherVersions>
-			<!--
-			for otherVersions, you can put either unsupported or unconfirmed
-			-->
+			<miniOS>10.0</miniOS>
+			<maxiOS>13.4.1</maxiOS>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+
+	</dependencies>
 	<descriptionlist>
-		<description>This is an old package. Requires iOS 7 and below..</description>
+		<description>Support for compatimark</description>
+	</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description>A shot of what it looks like while respringing</description>
+			<image>cydia.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+    <!--change>Scaling and loop issues being resolved</change-->
+		<change>Initial Release</change>
 	</changelog>
-	<links></links>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+    </link>
+
+	</links>
 </package>
