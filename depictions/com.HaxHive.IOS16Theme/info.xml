@@ -23,14 +23,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-    <!--change>Scaling and loop issues being resolved</change-->
 		<change>Initial Release</change>
 	</changelog>
-	<links>
-		<link>
-			<name>/r/jailbreak</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
-    </link>
-
-	</links>
 </package>
