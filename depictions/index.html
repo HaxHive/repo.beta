@@ -55,12 +55,20 @@
 					if(res==0) {$(element).hide()}
 				}
 			}
-        ,"#descriptionList"	:
-			{"type":"list"
-				,"source" :"package>descriptionlist>description"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
-			}
+			,"#descriptionList" :
+    {"type":"list"
+        ,"source" :"package>descriptionlist>description"
+        ,"paragraphElement"    : "<li class='list-group-item'>"
+        ,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
+        ,"render": function(element, source) {
+            // Add Known Bugs section
+            var knownBugs = $(source).find("known_bugs").text();
+            if (knownBugs && knownBugs.trim() !== "") {
+                $(element).append("<li class='list-group-item'><h5>Known Bugs</h5>" + knownBugs + "</li>");
+            }
+        }
+    }
+
         ,"#screenshotsLink"	:
 			{"type":"custom"
 				,"source" :"package>screenshots>screenshot"

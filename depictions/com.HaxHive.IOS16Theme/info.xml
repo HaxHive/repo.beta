@@ -14,6 +14,9 @@
 	<shortDescription>IOS 16 Theme for older IOS versions.</shortDescription>
 	<descriptionlist>
 		<description>An IOS 16 theme(For IOS 5.0 or newer) by Appletech75, the owner of the HaxHive repository. Version 1.1 features the following icons: AppStore, Camera, FaceTime, Contacts, iTunes, Maps, and Calculator. Screenshots are available.</description>
+	<known_bugs>
+      <p><strong>Bug:</strong> Custom icons will display black corners due to incorrect image dimensions. A fix for this issue is underway and will be implemented as soon as possible.</p>
+    </known_bugs>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
