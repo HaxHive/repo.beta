@@ -1,13 +1,5 @@
 function data_loader_engine(contentBlocks,xml) {
 
-// Check if there are bugs
-var hasBugs = $(xml).find("package>bugs>bug").length > 0;
-
-// Show bugs if there are any
-if (hasBugs) {
-    $("#bugsContainer").show();
-}
-
 	/* Loop through each if the contentBlocks */
 	$.each(contentBlocks, function (key,contentInfo){
 		
