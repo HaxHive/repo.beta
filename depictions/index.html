@@ -55,18 +55,19 @@
 					if(res==0) {$(element).hide()}
 				}
 			}
-        ,"#descriptionList"	:
-			{"type":"list"
-				,"source" :"package>descriptionlist>description"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
-			}
-			,"#knownBugsList": {
-        "type": "list",
-        "source": "package>known_bugs>bug",
-        "paragraphElement": "<li class='list-group-item'>",
-        "emptyListCallback": function (e) { $("#knownBugsContainer").hide() }
-    }
+			,"#descriptionList"	:
+    {"type":"list"
+        ,"source" :"package>descriptionlist>description"
+        ,"paragraphElement"	: "<li class='list-group-item'>"
+        ,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
+    },
+"#knownBugsList": {
+    "type": "list",
+    "source": "package>known_bugs>bug",
+    "paragraphElement": "<li class='list-group-item'>",
+    "emptyListCallback": function (e) { $("#knownBugsContainer").hide() }
+}
+
         ,"#screenshotsLink"	:
 			{"type":"custom"
 				,"source" :"package>screenshots>screenshot"
@@ -178,7 +179,6 @@
 	<div class="container" id="knownBugsContainer">
 		<h5>KNOWN BUGS</h5>
 		<ul id="knownBugsList" class="list-group">
-			<!-- Bugs will be dynamically added here -->
 		</ul>
 	</div>
 	
