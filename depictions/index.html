@@ -60,13 +60,21 @@
         ,"source" :"package>descriptionlist>description"
         ,"paragraphElement"	: "<li class='list-group-item'>"
         ,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
+    }
+	,"#knownBugsList": {
+        "type": "list",
+        "source": "package>known_bugs>bug",
+        "paragraphElement": "<li class='list-group-item'>",
+        "emptyListCallback": function (e) { $("#knownBugsContainer").hide() }
     },
-"#knownBugsList": {
-    "type": "list",
-    "source": "package>known_bugs>bug",
-    "paragraphElement": "<li class='list-group-item'>",
-    "emptyListCallback": function (e) { $("#knownBugsContainer").hide() }
-}
+
+    "#bugsList": {
+        "type": "list",
+        "source": "package>bugs>bug",
+        "paragraphElement": "<li class='list-group-item'>",
+        "emptyListCallback": function (e) { $("#bugsContainer").hide() }
+    }
+
 
         ,"#screenshotsLink"	:
 			{"type":"custom"
@@ -176,11 +184,12 @@
 	  <div id="compatibilityCheck" class="alert"></div>
 	</div>
 
-	<div class="container" id="knownBugsContainer">
-		<h5>KNOWN BUGS</h5>
-		<ul id="knownBugsList" class="list-group">
+	<div class="container" id="bugsContainer">
+		<h5>BUGS</h5>
+		<ul id="bugsList" class="list-group">
 		</ul>
 	</div>
+	
 	
 	<div class="container">
 		<h5>DESCRIPTION</h5>
