@@ -5,7 +5,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header styling */
 .header {
     position: fixed;
     top: 30px;
@@ -141,10 +140,6 @@ body {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 80%;
