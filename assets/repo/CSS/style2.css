@@ -147,11 +147,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 80%; /* Adjust the width as needed */
-    max-width: 400px; /* Adjust the max-width as needed */
+    max-width: 300px; /* Adjust the max-width as needed */
     height: 50%;
     max-height: 400px;
     overflow: auto;
     margin: auto; /* Center the window horizontally */
+    position: fixed;
+    top: 50%; /* Center the window vertically */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the window both horizontally and vertically */
 }
 
 @media screen and (max-width: 768px) {
@@ -161,6 +165,7 @@ body {
         max-width: 80%;
     }
 }
+
 
 
 .repo-item {
