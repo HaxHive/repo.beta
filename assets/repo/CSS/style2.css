@@ -96,6 +96,7 @@ body {
         background-color: #fff;
         margin: 5px auto;
         transition: background-color 0.3s;
+        border-radius: 5px; /* Add rounded corners to the bar */
     }
 
     .mobile-menu-icon.active .bar {
@@ -110,10 +111,13 @@ body {
         width: 100%;
         height: 100%;
         background-color: rgba(22, 21, 21, 0.9);
-        border-radius: 5px;
+        border-radius: 15px; /* Add rounded corners to the mobile nav */
         padding: 20px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .mobile-nav.active a {
