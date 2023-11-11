@@ -152,7 +152,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000; /* Lower z-index to place it below the header */
-    margin: 0; /* Reset margin */
+    margin: 0 auto; /* Center horizontally */
 }
 
 
