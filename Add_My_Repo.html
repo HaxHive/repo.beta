@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Add My Repo</title>
+    <link rel="stylesheet" href="assets/repo/CSS/style.css">
+    <title>HaxHive Repo</title>
 </head>
 <body>
 
-    <div class="content-container">
-        <div class="window">
+    <header>
+        <div class="logo">
+            <a href="index.html">HaxHive Repo</a>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add_my_repo.html">Add My Repo</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">&#9776;</div>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Add_My_Repo.html">Add My Repo</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Add_My_Repo">
             <h2>Add My Repo</h2>
             <ul>
-                <li><a href="#">Add to Cydia</a></li>
-                <li><a href="#">Add to Zebra</a></li>
-                <li><a href="#">Add to Sileo</a></li>
-                <li><a href="#">Add to Installer</a></li>
+                <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://haxhive.github.io/repo.beta/">Add to Cydia</a></li>
+                <li><a href="installer://add/https://haxhive.github.io/repo.beta/">Add to Zebra</a></li>
+                <li><a href="sileo://source/https://haxhive.github.io/repo.beta/">Add to Sileo</a></li>
+                <li><a href="zbra://sources/add/https://haxhive.github.io/repo.beta/">Add to Installer</a></li>
             </ul>
         </div>
     </div>
@@ -23,24 +45,3 @@
     <script src="assets/repo/JS/script.js"></script>
   </body>
   </html>
-  <div class="centered-window">
-    <div class="Add-my-repo">
-        <div class="repo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Cydia_logo.png" alt="Cydia Icon">
-            <a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://haxhive.github.io/repo.beta/">Add to Cydia</a>
-        </div>
-        <div class="repo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/InstallerLogoLarge.png" alt="Installer Icon">
-            <a class="btn btn-sm btn-default" href="installer://add/https://haxhive.github.io/repo.beta/">Add to Installer</a>
-        </div>
-        <div class="repo-item">
-            <img src="https://pbs.twimg.com/profile_images/1019627376857280512/laMqxYhl_400x400.jpg" alt="Sileo Icon">
-            <a class="btn btn-sm btn-default" href="sileo://source/https://haxhive.github.io/repo.beta/">Add to Sileo</a>
-        </div>
-        <div class="repo-item">
-            <img src="https://media.idownloadblog.com/wp-content/uploads/2022/02/zebra-dark-1024.png" alt="Zebra Icon">
-            <a class="btn btn-sm btn-default" href="zbra://sources/add/https://haxhive.github.io/repo.beta/">Add to Zebra</a>
-        </div>
-    </div>
-</div>
-

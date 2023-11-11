@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+background-color: aquamarine;
 }
 
 header {
@@ -76,10 +77,44 @@ nav a {
     text-align: center; /* Centers the text within each link */
 }
 
+.Add_My_Repo {
+    text-align: center;
+    margin-top: 50px; /* Adjust this value based on your preference */
+}
+
+.Add_My_Repo h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.Add_My_Repo ul {
+    list-style: none;
+    padding: 30px;
+}
+
+.Add_My_Repo li {
+    margin-bottom: 10px;
+}
+
+.Add_My_Repo a {
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Add_My_Repo a:hover {
+    background-color: #ddd;
+}
+
+
 /* Simplified responsive styles */
 @media only screen and (max-width: 768px) {
     header {
         padding: 10px;
+        left: 25px;
     }
 
     .logo a {
@@ -101,7 +136,7 @@ nav a {
         position: absolute;
         width: 60%;
         top: 80px;
-        right: 10px;
+        right: px;
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         text-align: right;
