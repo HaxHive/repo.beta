@@ -146,11 +146,12 @@ body {
     align-items: center; /* Center items horizontally */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    width: 20%;
-    max-width: 800px;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Adjust the max-width as needed */
     height: 50%;
     max-height: 400px;
     overflow: auto;
+    margin: auto; /* Center the window horizontally */
 }
 
 @media screen and (max-width: 768px) {
@@ -160,6 +161,7 @@ body {
         max-width: 80%;
     }
 }
+
 
 .repo-item {
     display: flex;
@@ -184,7 +186,7 @@ body {
     position: relative;
     top: 300px; /* Adjust the value as needed to move it down */
     left: 0; /* Adjust the value as needed to move it right */
-    color: #ffffff;
+    color: #FFFFFF;
     text-align: center;
 }
 
