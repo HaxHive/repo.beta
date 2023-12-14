@@ -1,0 +1,30 @@
+Package: com.HaxHive.IOS16Theme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: HaxHive(Appletech75) <kilianbalaguer@icloud.com>
+Filename: ./debs/com.HaxHive.IOS16Theme.deb
+Size: 8552642
+MD5sum: db16fd697534332b263d68dbc9d2a3b4
+SHA1: a2a9479638257a7b73fa0c8b1aa3008c75d73173
+SHA256: 1cd0762b4334e249c638d4ce5d5c70cfcc0f98c5c17b1bcc374d85019197a466
+Section: Themes
+Description: An iOS 16 theme by Appletech75, the owner of the HaxHive repository. Version 1.0 features the following icons: AppStore, Camera, FaceTime, Contacts, iTunes, Maps, and Calculator. Screenshots are available.
+Author: HaxHive(Appletech75) <kilianbalaguer@icloud.com>
+Depiction: https://haxhive.github.io/repo.beta/depictions/?p=com.HaxHive.IOS16Theme
+Name: IOS 16 theme
+
+Package: com.HaxHive.IOS16Theme
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: HaxHive(Appletech75) <kilianbalaguer@icloud.com>
+Filename: ./debs/com.HaxHive.IOS16Theme-1.1.deb
+Size: 148636
+MD5sum: 07fb5a57b41725645cc42bd4de930d23
+SHA1: 5a08abc56522fbc6d5b5302883f2f2bc91dfcaa3
+SHA256: 510a003c046e40e088b729312636a1fe4cadd0e9bb075bf754aac8ea5bc7d8fb
+Section: Themes
+Description: An iOS 16 theme by Appletech75, the owner of the HaxHive repository. Version 1.1 features the following icons: AppStore, Camera, FaceTime, Contacts, iTunes, Maps, and Calculator. Screenshots are available.
+Author: HaxHive(Appletech75) <kilianbalaguer@icloud.com>
+Depiction: https://haxhive.github.io/repo.beta/depictions/?p=com.HaxHive.IOS16Theme
+Name: IOS 16 theme
+

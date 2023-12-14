@@ -1,0 +1,45 @@
+<package>
+	<id>com.HaxHive.IOS16Theme</id>
+	<name>IOS 16 Theme</name>
+	<version>1.1</version>
+	<compatibility>
+		<firmware>
+		<miniOS>5.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>WinterBoard</package>
+		<package>IconBundles</package>
+	</dependencies>
+	<shortDescription>IOS 16 Theme for older IOS versions.</shortDescription>
+	<descriptionlist>
+		<description>An IOS 16 theme(For IOS 5.0 or newer) by Appletech75, the owner of the HaxHive repository. Version 1.1 features the following icons: AppStore, Camera, FaceTime, Contacts, iTunes, Maps, and Calculator. Screenshots are available.</description>
+    <bugSection>
+        <title>Bug</title>
+        <content>Custom Icons Have Black Corners, This Bug is getting fixed.</content>
+    </bugSection>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>IMG_0006.PNG</image>
+		</screenshot>		
+		<screenshot>
+			<image>IMG_0007.PNG</image>
+		</screenshot>	
+				<screenshot>
+			<image>IMG_0008.PNG</image>
+		</screenshot>
+				<screenshot>
+			<image>IMG_0010.PNG</image>
+			</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Second release</change>
+		<change>Fixed The Square Icons</change>
+	</changelog>
+	<links>
+		<link>
+			<name>HaxHive Discord Server (Comming soon)</name>
+		</link>
+	</links>
+</package>
